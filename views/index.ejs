@@ -1,0 +1,64 @@
+<%- include('header.ejs') %>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Playdog.com</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+                <span class="navbar-text logout">
+                    <a class="nav-link" href="#">Logout</a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div class="box">
+        <input type="text" name="dogSearch" class="searchInput" placeholder="Search Kutta">
+        <button class="searchButton">Search</button>
+    </div>
+
+
+    <!-- Carousel -->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-cont">
+        <div class="carousel-inner carousel-images">
+          <div class="carousel-item active" id="cItems">
+            <img src="/images/dog1.jpg" class="d-block w-20 carauselImg"  alt="...">
+            <p class="caption"><img class="logo" src="/icons/heart.png" alt=""></p>
+            <p class="caption second"><img class="logo" src="/icons/star.png" alt=""></p>
+            <p class="caption third"><img class="logo" src="/icons/remove.png" alt=""></p>
+            <img src="/images/dog2.jpg" class="d-block w-20 carauselImg"  alt="...">
+            <p class="caption caption2"><img class="logo" src="/icons/heart.png" alt=""></p>
+            <p class="caption caption2 second2"><img class="logo" src="/icons/star.png" alt=""></p>
+            <p class="caption  caption2 third2"><img class="logo" src="/icons/remove.png" alt=""></p>
+            
+          </div>
+          <div class="carousel-item" id="cItems">
+            <img src="/images/dog2.jpg" class="d-block w-20 carauselImg"  alt="...">
+            <p class="caption"><img class="logo" src="/icons/heart.png" alt=""></p>
+            <p class="caption second"><img class="logo" src="/icons/star.png" alt=""></p>
+            <p class="caption third"><img class="logo" src="/icons/remove.png" alt=""></p>
+            <img src="/images/dog3.jpg" class="d-block w-20 carauselImg"  alt="...">
+            <p class="caption caption2"><img class="logo" src="/icons/heart.png" alt=""></p>
+            <p class="caption caption2 second2"><img class="logo" src="/icons/star.png" alt=""></p>
+            <p class="caption  caption2 third2"><img class="logo" src="/icons/remove.png" alt=""></p>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <%- include('footer.ejs') %>
