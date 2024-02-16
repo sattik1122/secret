@@ -110,4 +110,21 @@ h1{
     height:350px;
 }
 
+/* Registration Form */
+
+.regCont{
+  width:400px;
+  height:500px;
+  margin-top: 10px;
+  background-color: #F8F4EC;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-top:10px;
+}
+.regHeader{
+  color:#3E3232;
+  text-align: center;
+  padding-top: 15px;
+}
+
 
